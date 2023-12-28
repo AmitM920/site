@@ -120,3 +120,20 @@
     font-size: 1em;
     text-transform: uppercase;
 }
+
+/* changes to the welcome earthling text */
+@keyframes colorChange {
+    0% {
+        color: #092635; /* Starting color (red) */
+    }
+    50% {
+        color: #1B4242; /* Middle color (green) */
+    }
+    100% {
+        color: #9EC8B9; /* Ending color (blue) */
+    }
+}
+
+.overlay-text{
+    animation: colorChange 5s infinite; /* Change 'your-text-id' to the actual ID of your text element */
+}
